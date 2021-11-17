@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo install started on `date`
+
+  build:
+    commands:
+      - echo build started on `date`
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: src
